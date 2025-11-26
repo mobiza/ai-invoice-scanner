@@ -43,8 +43,8 @@ En temel seviyede kurulum adımları aşağıdadır:
 1.  **Projeyi İndirin (Klonlayın):**
     Terminali (Komut İstemi veya Terminal) açın ve şu komutu yapıştırın:
     ```bash
-    git clone https://github.com/kullaniciadi/invoice-scanner.git
-    cd invoice-scanner
+    git clone https://github.com/mobiza/ai-invoice-scanner.git
+    cd ai-invoice-scanner
     ```
 
 2.  **Gerekli Paketleri Yükleyin:**
