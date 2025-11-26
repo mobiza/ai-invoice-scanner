@@ -1,0 +1,5 @@
+{
+  "name": "Fiş Tarama",
+  "description": "A high-fidelity, monochromatic interface for Mistral's Document AI and OCR services, featuring cost analysis and structural visualization.",
+  "requestFramePermissions": []
+}
