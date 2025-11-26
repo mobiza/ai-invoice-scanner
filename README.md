@@ -83,14 +83,14 @@ VITE_MISTRAL_MODEL=mistral-ocr-latest
 
 ```mermaid
 graph TD
-    A[Kullanıcı Fiş Yükler] -->|Resim/PDF| B(Mistral OCR);
-    B -->|Ham Metin (Markdown)| C{Gemini AI};
-    C -->|Veri Ayrıştırma & Düzeltme| D[Yapılandırılmış JSON];
-    D --> E[Arayüzde Gösterim];
-    E --> F{Kullanıcı İşlemi};
-    F -->|Fiş Görünümü| G[Termal Yazıcı Çıktısı];
-    F -->|Fatura Görünümü| H[A4 Fatura Çıktısı];
-    F -->|JSON İndir| I[Dosya Kaydetme];
+    A[Kullanıcı Fiş Yükler] -->|Resim/PDF| B("Mistral OCR");
+    B -->|Ham Metin Markdown| C["Gemini AI"];
+    C -->|Veri Ayrıştırma & Düzeltme| D["Yapılandırılmış JSON"];
+    D --> E["Arayüzde Gösterim"];
+    E --> F["Kullanıcı İşlemi"];
+    F -->|Fiş Görünümü| G["Termal Yazıcı Çıktısı"];
+    F -->|Fatura Görünümü| H["A4 Fatura Çıktısı"];
+    F -->|JSON İndir| I["Dosya Kaydetme"];
 ```
 
 1.  **Yükleme:** Kullanıcı bir fiş fotoğrafı veya PDF yükler.
