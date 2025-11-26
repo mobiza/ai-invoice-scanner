@@ -8,6 +8,8 @@
 
 **AI Invoice Scanner**, fiş ve faturalarınızı yapay zeka destekli OCR teknolojisi ile tarayan, dijitalleştiren ve düzenleyen modern bir web uygulamasıdır. Mistral AI ve Google Gemini modellerini kullanarak kağıt üzerindeki verileri saniyeler içinde anlamlı verilere dönüştürür.
 
+**🔗 Demo:** [https://invoice.mobiza.com.tr/](https://invoice.mobiza.com.tr/)
+
 ## 🚀 Özellikler
 
 *   **Yapay Zeka Destekli OCR:** Mistral OCR ile yüksek doğrulukta metin okuma.
@@ -35,6 +37,24 @@ Bu projeyi çalıştırmak için bilgisayarınızda aşağıdakilerin kurulu olm
 
 *   [Node.js](https://nodejs.org/) (Sürüm 18 veya üzeri önerilir)
 *   [Git](https://git-scm.com/)
+
+## 🚀 Dağıtım (Plesk için)
+
+Bu projeyi Plesk kontrol paneline dağıtmak için aşağıdaki komutları kullanabilirsiniz:
+
+**Dağıtım Eylemleri (Deployment Actions):**
+```bash
+# Node.js bağımlılıklarını yükle
+npm install
+
+# Projeyi build et
+npm run build
+
+# Build dosyalarını web sunucusu dizinine kopyala (gerekirse)
+cp -r dist/* /invoice.mobiza.com.tr/
+```
+
+**Not:** Eğer farklı bir sunucu yapınız varsa, `cp` komutunu sunucu dizininize göre ayarlayın.
 
 ## ⚙️ Kurulum (Adım Adım)
 
